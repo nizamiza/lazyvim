@@ -11,10 +11,10 @@ return {
       filtered_items = {
         hide_dotfiles = false,
         always_show = {
-          ".gitignore",
-          ".eslintignore*",
-          ".prettierignore*",
-          ".env*",
+          ".env",
+          ".env.local",
+          ".env.development",
+          ".env.production",
         },
         never_show = {
           ".DS_Store",

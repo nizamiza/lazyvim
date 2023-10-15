@@ -31,3 +31,5 @@ opt.termguicolors = true
 opt.list = false
 
 opt.filetype = "on"
+
+opt.completeopt = "menuone,noselect,preview"

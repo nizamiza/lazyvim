@@ -1,4 +1,4 @@
-local prettier = { { "prettierd", "prettier" } }
+local common = { { "prettierd", "prettier" } }
 
 --- @type LazySpec
 return {
@@ -6,20 +6,19 @@ return {
   opts = {
     formatters_by_ft = {
       lua = { "stylua" },
-      ["*"] = { "codespell" },
-      javascript = prettier,
-      typescript = prettier,
-      javascriptreact = prettier,
-      typescriptreact = prettier,
-      vue = prettier,
-      prisma = prettier,
-      json = prettier,
-      yml = prettier,
-      markdown = prettier,
-      graphql = prettier,
-      css = prettier,
-      scss = prettier,
-      html = prettier,
+      javascript = common,
+      typescript = common,
+      javascriptreact = common,
+      typescriptreact = common,
+      vue = common,
+      prisma = common,
+      json = common,
+      yml = common,
+      markdown = common,
+      graphql = common,
+      css = common,
+      scss = common,
+      html = common,
     },
   },
 }
